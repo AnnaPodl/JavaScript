@@ -4,35 +4,52 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
     <link rel="stylesheet" href="styles.css" />
-    <title>Карточки | Проект 1</title>
+    <title>Слайдер | Проект 3</title>
 </head>
 
 <body>
     <div class="container">
-        <div class="slide"
-            style="background-image: url('https://images.unsplash.com/photo-1498307833015-e7b400441eb8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1228&q=80');">
-            <h3>Italy</h3>
+        <div class="sidebar">
+            <div style="background: linear-gradient(229.99deg, #52eef7 -26%, #ff71bf 145%);">
+                <h1>Snow in the desert</h1>
+                <p>Love, death & robots</p>
+            </div>
+            <div style="background: linear-gradient(215.32deg, #F90306 -1%, #0026ff 100%);">
+                <h1>Life Hutch</h1>
+                <p>Love, death & robots</p>
+            </div>
+            <div style="background: linear-gradient(221.87deg, #faab00 1%, #ff7605 128%);">
+                <h1>Zima Blue</h1>
+                <p>Love, death & robots</p>
+            </div>
+            <div style="background: linear-gradient(220.16deg, #9E0706 -1%, #750202 124%);">
+                <h1>Automated Customer Service</h1>
+                <p>Love, death & robots</p>
+            </div>
         </div>
-        <div class="slide" style="
-          background-image: url('https://images.unsplash.com/photo-1502602898657-3e91760cbb34?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80');
-        ">
-            <h3>France</h3>
+        <div class="main-slide">
+            <div style="
+            background-image: url('https://images.unsplash.com/photo-1639237430665-86d1f923718b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1156&q=80');
+          "></div>
+            <div style="
+            background-image: url('https://images.unsplash.com/photo-1639929472244-788ff1e70caa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+          "></div>
+            <div style="
+            background-image: url('https://images.unsplash.com/photo-1640388397643-cd924ab7ef1b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1597&q=80');
+          "></div>
+            <div style="
+            background-image: url('https://images.unsplash.com/photo-1639673806257-954838b3ec6f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+          "></div>
         </div>
-        <div class="slide active" style="
-          background-image: url('https://images.unsplash.com/photo-1520986606214-8b456906c813?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
-        ">
-            <h3>UK</h3>
-        </div>
-        <div class="slide" style="
-          background-image: url('https://images.unsplash.com/photo-1586009513992-3ab1f2290380?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
-        ">
-            <h3>Russia</h3>
-        </div>
-        <div class="slide" style="
-          background-image: url('https://images.unsplash.com/photo-1422464804701-7d8356b3a42f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80');
-        ">
-            <h3>USA</h3>
+        <div class="controls">
+            <button class="down-button">
+                <i class="fas fa-arrow-down"></i>
+            </button>
+            <button class="up-button">
+                <i class="fas fa-arrow-up"></i>
+            </button>
         </div>
     </div>
     <script src="script.js"></script>
